@@ -63,8 +63,8 @@ export default function NavBar() {
   );
 
   return (
-    <nav className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 dark:bg-gray-900 dark:text-white bg-white">
-      <div className="flex items-center justify-between dark:text-white text-black">
+    <nav className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 dark:bg-gray-900 dark:text-white bg-white duration-100">
+      <div className="flex items-center justify-between dark:text-white text-black mx-10 ">
         <a
           href="http://localhost:3000/"
           class="flex items-center space-x-3 rtl:space-x-reverse"
@@ -142,7 +142,7 @@ export default function NavBar() {
             size="sm"
             className="dark:text-white text-black"
           >
-            <span>Log In</span>
+            <span>Contact</span>
           </Button>
           <Button
             fullWidth
@@ -150,7 +150,7 @@ export default function NavBar() {
             size="sm"
             className="dark:text-black text-white dark:bg-white bg-gray-900"
           >
-            <span>Sign in</span>
+            <span>Login</span>
           </Button>
         </div>
       </MobileNav>
