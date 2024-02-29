@@ -17,7 +17,7 @@ export default function NavBar() {
   }, []);
 
   const navList = (
-    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 ">
+    <ul className="z-10 mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 ">
       <Typography
         as="li"
         variant="small"
@@ -69,7 +69,7 @@ export default function NavBar() {
           href="http://localhost:3000/"
           class="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span class="self-center text-2xl font-semibold whitespace-nowrap ">
             David Badarau
           </span>
         </a>
@@ -81,7 +81,7 @@ export default function NavBar() {
               size="sm"
               className="hidden lg:inline-block  dark:text-white text-black"
             >
-              <span>Contact</span>
+              <span className="text-black dark:text-white">Contact</span>
             </Button>
 
             <a href="/login">
@@ -90,13 +90,13 @@ export default function NavBar() {
                 size="sm"
                 className="hidden lg:inline-block dark:text-black text-white dark:bg-white bg-gray-900"
               >
-                <span>LogIn</span>
+                <span className="text-white dark:text-black">LogIn</span>
               </Button>
             </a>
           </div>
           <IconButton
             variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            className="dark:bg-white bg-gray-900 ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
@@ -142,7 +142,7 @@ export default function NavBar() {
             size="sm"
             className="dark:text-white text-black"
           >
-            <span>Contact</span>
+            <span className="text-black dark:text-white">Contact</span>
           </Button>
           <Button
             fullWidth
@@ -150,7 +150,7 @@ export default function NavBar() {
             size="sm"
             className="dark:text-black text-white dark:bg-white bg-gray-900"
           >
-            <span>Login</span>
+            <a href="/login">Login</a>
           </Button>
         </div>
       </MobileNav>
