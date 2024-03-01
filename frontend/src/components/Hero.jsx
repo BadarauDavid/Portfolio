@@ -25,7 +25,7 @@ export default function Hero() {
               A technology enthusiast
             </p>
           </div>
-          <div className="text-5xl flex justify-start gap-16 my-7 text-purple-600">
+          <div className="text-5xl flex justify-start gap-16 my-7 text-blue-400">
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
@@ -44,7 +44,7 @@ export default function Hero() {
         <div className="my-auto">
           <img
             className="w-[300px] sm:w-[500px] mx-auto h-auto rounded-full"
-            src={profilePic1}
+            src={profilePic2}
             alt="Profile Pic"
           />
         </div>
