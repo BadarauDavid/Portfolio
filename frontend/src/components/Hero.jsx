@@ -21,13 +21,17 @@ export default function Hero() {
             />
           </h1>
           <div className="flex justify-center items-center">
-            <p className="md:text-4xl sm:text-3xl text-xl font-bold text-gray-500">
+            <p className="md:text-4xl sm:text-3xl text-xl font-bold text-gray-500 ">
               A technology enthusiast
             </p>
           </div>
           <div className="text-5xl flex justify-start gap-16 my-7 text-blue-400">
-            <AiFillLinkedin />
-            <AiFillGithub />
+            <a href="http://www.linkedin.com/in/david-iulian-badarau-158b18245">
+              <AiFillLinkedin />
+            </a>
+            <a href="https://github.com/BadarauDavid">
+              <AiFillGithub />
+            </a>
           </div>
           <div className="relative inline-flex group my-3">
             <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675e] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"></div>
