@@ -2,6 +2,7 @@ import { useEffect, useState, useCallback } from "react";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Work from "./components/Work";
 
 function App() {
   const [theme, setTheme] = useState(
@@ -81,6 +82,7 @@ function App() {
       </div>
       <Hero />
       <About />
+      <Work/>
     </div>
   );
 }
