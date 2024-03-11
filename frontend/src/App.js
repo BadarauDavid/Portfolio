@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Work from "./components/Work";
 import Education from "./components/Education";
+import Contact from "./components/Contact";
 
 function App() {
   const [theme, setTheme] = useState(
@@ -85,6 +86,7 @@ function App() {
       <About />
       <Work/>
       <Education/>
+      <Contact />
     </div>
   );
 }
