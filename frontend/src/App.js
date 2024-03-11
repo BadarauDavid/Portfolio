@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Work from "./components/Work";
+import Education from "./components/Education";
 
 function App() {
   const [theme, setTheme] = useState(
@@ -83,6 +84,7 @@ function App() {
       <Hero />
       <About />
       <Work/>
+      <Education/>
     </div>
   );
 }
