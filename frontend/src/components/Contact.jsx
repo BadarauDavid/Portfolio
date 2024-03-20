@@ -19,7 +19,7 @@ export default function Contact() {
             </div> 
           </div>
           <form
-              action=""
+              action="https://getform.io/f/warklxnb"
               method="post"
               className="p-6 flex flex-col justify-center max-w-[700px]"
             >
